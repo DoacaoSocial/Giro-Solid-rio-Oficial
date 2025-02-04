@@ -1,10 +1,18 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>Giro Solidário</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doações</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Bem-vindo ao Giro Solidário!</h1>
-    <p>Essa página mostrará nossos valores arrecadados.</p>
+    <div class="donation">
+        <h1>Doações Totais</h1>
+        <p id="donationAmount">R$ 0,00</p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
